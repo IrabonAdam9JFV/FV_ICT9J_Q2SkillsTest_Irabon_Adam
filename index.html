@@ -108,13 +108,15 @@
                     </div>
                     <label for="checkbox" class="form-label"><span class="fw-bold"> Mandatory Agreement</span></label>
 
-
+                    <div class="agreement-box">
+                    <p>By submitting this form, you agree to the collection and use of your personal information in accordance with our privacy policy. Your information will be kept confidential and will only be used for the purpose of processing your inquiry or request. We will not share your information with any third parties without your consent.</p>
                     <div class="form-check form-switch">
                         <p>Information is safely kept.</p>
                         <input type="checkbox" class="form=switch">
                         <label for="checkbox"><span class="lead fst-italic">I agree to the terms and conditions.</span></label>
                     </div>
                     <br>
+                    </div>
                     <input type="submit" value="Send" class="btn btn-primary">
                 </form>
                  </div>
@@ -158,9 +160,11 @@ body {
 .form-container {
 
     background-color: white;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 35px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 
 }
 
@@ -172,6 +176,10 @@ body {
 
 }
 
+.form-container .mb-4 {
+    margin-bottom: 25px;
+
+}
 .form-containter .form-label {
 
     display: block;
